@@ -11,9 +11,11 @@ public class Main {
 		
 		SellerDao sellerDao = DaoFactory.createSellerDao();
 		
+		System.out.println("----------- Test 1: Seller findByID -------------");
 		Seller seller = sellerDao.findById(3);
-		
 		System.out.println(seller);
+		
+		
 
 	}
 
